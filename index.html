@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Interactive Photo Gallery</h1>
+
+<img id="previewPic" 
+     src="https://picsum.photos/id/10/400/300" 
+     alt="Preview Image">
+
+<div class="gallery">
+    <img src="https://picsum.photos/id/10/400/300" 
+         alt="Picture 1"
+         onmouseover="upDate(this)" 
+         onmouseout="unDo()">
+
+    <img src="https://picsum.photos/id/20/400/300" 
+         alt="Picture 2"
+         onmouseover="upDate(this)" 
+         onmouseout="unDo()">
+
+    <img src="https://picsum.photos/id/30/400/300" 
+         alt="Picture 3"
+         onmouseover="upDate(this)" 
+         onmouseout="unDo()">
+
+    <img src="https://picsum.photos/id/40/400/300" 
+         alt="Picture 4"
+         onmouseover="upDate(this)" 
+         onmouseout="unDo()">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
